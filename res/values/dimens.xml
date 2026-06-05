@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="routine_card_padding">16dp</dimen>
+    <dimen name="routine_card_margin">8dp</dimen>
+    <dimen name="routine_card_corner_radius">24dp</dimen>
+    <dimen name="routine_list_horizontal_margin">16dp</dimen>
+    <dimen name="routine_section_spacing">24dp</dimen>
+    <dimen name="routine_fab_margin">16dp</dimen>
+    <dimen name="routine_icon_size">40dp</dimen>
+    <dimen name="routine_icon_container_size">56dp</dimen>
+    <dimen name="routine_empty_icon_size">88dp</dimen>
+    <dimen name="trigger_action_chip_height">56dp</dimen>
+</resources>

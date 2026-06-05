@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="pref_require_unlocked_local"
+        android:title="@string/option_require_unlocked"
+        android:summary="@string/option_require_unlocked_summary"
+        android:defaultValue="false" />
+</PreferenceScreen>

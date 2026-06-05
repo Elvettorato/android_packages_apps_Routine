@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 Elvettorato
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <!-- ==== App identity ==== -->
+    <string name="app_name">Routine</string>
+    <string name="app_summary">Automate your phone by time and place</string>
+
+    <!-- ==== Top-level UI ==== -->
+    <string name="routines_title">Routines</string>
+    <string name="no_routines_title">No routines yet</string>
+    <string name="no_routines_summary">Tap the + button to create your first routine. A routine can change settings, send a notification or toggle radios based on the time of day or where you are.</string>
+    <string name="add_routine">Add routine</string>
+    <string name="edit_routine_title">Edit routine</string>
+    <string name="new_routine_title">New routine</string>
+    <string name="duplicate_routine">Duplicate</string>
+    <string name="delete_routine">Delete</string>
+    <string name="delete_routine_confirm">Delete \"%1$s\"?</string>
+    <string name="delete_routine_message">This routine and its triggers will be removed.</string>
+    <string name="enable_routine">Enabled</string>
+    <string name="run_now">Run now</string>
+    <string name="last_run">Last run: %1$s</string>
+    <string name="never_run">Never run</string>
+
+    <!-- ==== Routine sections ==== -->
+    <string name="section_basics">Basics</string>
+    <string name="section_triggers">When</string>
+    <string name="section_actions">Then</string>
+    <string name="section_options">Options</string>
+
+    <string name="field_name">Name</string>
+    <string name="field_name_hint">e.g. Sleep, Work, Home Wi-Fi off</string>
+    <string name="field_icon">Icon</string>
+    <string name="field_color">Color</string>
+
+    <!-- ==== Triggers ==== -->
+    <string name="trigger_add">Add trigger</string>
+    <string name="trigger_time">Time of day</string>
+    <string name="trigger_time_summary">Run at a fixed time on selected days</string>
+    <string name="trigger_location_enter">Arrive at place</string>
+    <string name="trigger_location_enter_summary">Run when you enter a saved location</string>
+    <string name="trigger_location_exit">Leave place</string>
+    <string name="trigger_location_exit_summary">Run when you leave a saved location</string>
+    <string name="trigger_charging">Charging state</string>
+    <string name="trigger_charging_summary">Run when the charger is connected or disconnected</string>
+
+    <string name="trigger_time_at">At %1$s</string>
+    <string name="trigger_time_days">on %1$s</string>
+    <string name="trigger_days_all">every day</string>
+    <string name="trigger_days_weekdays">on weekdays</string>
+    <string name="trigger_days_weekends">on weekends</string>
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+
+    <string name="pick_place_title">Pick a place</string>
+    <string name="place_name_hint">Place name</string>
+    <string name="place_radius">Radius: %1$d m</string>
+    <string name="use_current_location">Use current location</string>
+    <string name="enter_coordinates">Enter coordinates</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="location_polling_interval">Location check interval</string>
+    <string name="location_polling_interval_summary">How often to refresh the position when geofencing is not available. Lower values use more battery.</string>
+
+    <!-- ==== Actions ==== -->
+    <string name="action_add">Add action</string>
+    <string name="action_dnd">Do Not Disturb</string>
+    <string name="action_dnd_summary">Turn DND on, off, or set a specific mode</string>
+    <string name="action_volume">Volume</string>
+    <string name="action_volume_summary">Set ringer, media, alarm, notification or call volume</string>
+    <string name="action_ringer_mode">Ringer mode</string>
+    <string name="action_ringer_mode_summary">Normal, vibrate or silent</string>
+    <string name="action_brightness">Screen brightness</string>
+    <string name="action_brightness_summary">Set a fixed brightness level or toggle auto-brightness</string>
+    <string name="action_wifi">Wi-Fi</string>
+    <string name="action_wifi_summary">Turn Wi-Fi on or off</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_bluetooth_summary">Turn Bluetooth on or off</string>
+    <string name="action_airplane">Airplane mode</string>
+    <string name="action_airplane_summary">Turn airplane mode on or off (privileged)</string>
+    <string name="action_notification">Send notification</string>
+    <string name="action_notification_summary">Post a notification with a custom title and body</string>
+
+    <string name="state_on">Turn on</string>
+    <string name="state_off">Turn off</string>
+    <string name="state_toggle">Toggle</string>
+
+    <string name="dnd_off">Off</string>
+    <string name="dnd_priority">Priority only</string>
+    <string name="dnd_alarms">Alarms only</string>
+    <string name="dnd_total">Total silence</string>
+
+    <string name="ringer_normal">Normal</string>
+    <string name="ringer_vibrate">Vibrate</string>
+    <string name="ringer_silent">Silent</string>
+
+    <string name="volume_stream">Stream</string>
+    <string name="stream_ring">Ring</string>
+    <string name="stream_media">Media</string>
+    <string name="stream_alarm">Alarm</string>
+    <string name="stream_notification">Notification</string>
+    <string name="stream_call">Call</string>
+    <string name="volume_level">Level: %1$d%%</string>
+
+    <string name="brightness_auto">Auto-brightness</string>
+    <string name="brightness_level">Level: %1$d%%</string>
+
+    <string name="notification_title_hint">Title</string>
+    <string name="notification_body_hint">Body</string>
+
+    <!-- ==== Options ==== -->
+    <string name="option_show_in_launcher">Show in app drawer</string>
+    <string name="option_show_in_launcher_summary">Add a Routine icon to the launcher so you can open it like a regular app. When off, you can only reach it from Settings.</string>
+    <string name="option_persistent_notification">Show ongoing notification</string>
+    <string name="option_persistent_notification_summary">Display a low-priority notification while the routine service is running</string>
+    <string name="option_require_unlocked">Only run when unlocked</string>
+    <string name="option_require_unlocked_summary">Skip the routine if the device is locked at trigger time</string>
+
+    <!-- ==== Permissions ==== -->
+    <string name="perm_dnd_title">Do Not Disturb access</string>
+    <string name="perm_dnd_message">Routine needs DND access to change Do Not Disturb modes.</string>
+    <string name="perm_location_title">Location access</string>
+    <string name="perm_location_message">Routine needs background location to run actions when you arrive at or leave a place. You can revoke this permission at any time.</string>
+    <string name="perm_notification_title">Notification permission</string>
+    <string name="perm_notification_message">Routine needs the notification permission to post notifications you configure and to show the background service indicator.</string>
+    <string name="perm_grant">Grant</string>
+    <string name="perm_open_settings">Open settings</string>
+
+    <!-- ==== Service notification channel ==== -->
+    <string name="channel_service">Background service</string>
+    <string name="channel_service_description">Used to keep Routine running so it can evaluate triggers in the background</string>
+    <string name="channel_user">Routine notifications</string>
+    <string name="channel_user_description">Notifications posted by your routines</string>
+    <string name="service_running_title">Routine is running</string>
+    <string name="service_running_summary">%1$d routines enabled</string>
+
+    <!-- ==== Common ==== -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="discard_changes">Discard changes?</string>
+    <string name="select">Select</string>
+    <string name="apply">Apply</string>
+    <string name="remove">Remove</string>
+    <string name="error_save_failed">Could not save routine</string>
+    <string name="error_no_trigger">Add at least one trigger</string>
+    <string name="error_no_action">Add at least one action</string>
+    <string name="error_no_name">Choose a name first</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- ==== About ==== -->
+    <string name="about_title">About Routine</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_copyright">© 2026 Elvettorato. Apache License 2.0</string>
+</resources>

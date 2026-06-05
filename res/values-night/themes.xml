@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Routine" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="colorPrimary">?android:attr/colorAccent</item>
+        <item name="colorOnPrimary">@android:color/system_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@android:color/system_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@android:color/system_on_primary_container_dark</item>
+        <item name="colorSecondaryContainer">@android:color/system_secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@android:color/system_on_secondary_container_dark</item>
+        <item name="colorSurface">@android:color/system_surface_dark</item>
+        <item name="colorSurfaceContainer">@android:color/system_surface_container_dark</item>
+        <item name="colorSurfaceContainerHigh">@android:color/system_surface_container_high_dark</item>
+        <item name="colorSurfaceContainerHighest">@android:color/system_surface_container_highest_dark</item>
+        <item name="colorOnSurface">@android:color/system_on_surface_dark</item>
+        <item name="colorOnSurfaceVariant">@android:color/system_on_surface_variant_dark</item>
+        <item name="colorOutline">@android:color/system_outline_dark</item>
+        <item name="colorOutlineVariant">@android:color/system_outline_variant_dark</item>
+
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Routine.Expressive</item>
+
+        <item name="floatingActionButtonStyle">@style/Widget.Routine.FloatingActionButton</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.Routine.ExtendedFloatingActionButton</item>
+        <item name="materialCardViewStyle">@style/Widget.Routine.CardView</item>
+        <item name="toolbarStyle">@style/Widget.Routine.Toolbar</item>
+    </style>
+</resources>

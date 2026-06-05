@@ -1,0 +1,15 @@
+# Keep public entry points used by AOSP/PackageManager via reflection
+-keep class com.elvettorato.routine.RoutineApp { *; }
+-keep class com.elvettorato.routine.ui.** { *; }
+-keep class com.elvettorato.routine.receiver.** { *; }
+-keep class com.elvettorato.routine.service.** { *; }
+
+# Keep data model classes used by Gson/JSON serialization (we use org.json so keep field names)
+-keepclassmembers class com.elvettorato.routine.data.** {
+    private <fields>;
+    public <fields>;
+}
+
+# AndroidX preference / appcompat default rules already applied via static_libs
+-dontwarn org.jetbrains.annotations.**
+-dontwarn kotlinx.coroutines.**

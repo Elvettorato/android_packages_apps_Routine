@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App-wide branded palette used when system Material You colors are
+         unavailable (e.g. very old emulator). Modern Material 3 Expressive
+         derives most colors from android system_* tokens at runtime. -->
+    <color name="routine_seed">#6750A4</color>
+    <color name="routine_accent">#7F67BE</color>
+    <color name="routine_surface_tint">#7F67BE</color>
+
+    <!-- Used for the empty-state illustration tint -->
+    <color name="routine_empty_tint">#7F67BE</color>
+</resources>
